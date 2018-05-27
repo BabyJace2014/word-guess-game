@@ -1,0 +1,27 @@
+body {
+    color: white;
+    background-color: green;
+}
+
+.background {
+    background-color: white;
+    background-image: url("../images/heinz-field.jpeg");
+    background-size: cover;
+    background-blend-mode: darken;
+   
+}
+
+#new-game-button {
+    cursor: pointer;
+    position: relative;
+    
+}
+
+#placeholder-section {
+    background-color: green;
+}
+
+#placeholders {
+    letter-spacing: 6px;
+    font-size: 40px;
+}

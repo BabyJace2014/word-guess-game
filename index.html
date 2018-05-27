@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hangman</title>
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -20,8 +20,8 @@
                </div>
             
                <div class="col-12 col-md-4 my-3">
-                   <h1>Children Shows Hangman</h1>
-                   <button id="new-gmae-button">
+                   <h1>Are You Ready For Some Football!!! Hangman Game</h1>
+                   <button id="new-game-button">
                         <i class="fas fa-child"></i>
                         Start A New Game
                     </button>
@@ -32,7 +32,51 @@
         </div>
             
     </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center py-5" id="placeholder-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 my-3">
+                        <h2>Guessed Word
+                            <br/>
+                            <span id="placeholders">____ _____ ___</span>
+                        </h2>
+                        </div>
+                        <div class="col-12 col-md-6 my-3">
+                            <h2>Incorrect Letters Guessed
+                                <br/>
+                            <span id="guessed-letters"></span>
+                            </h2>
+                        </div>
+                    </div>
 
+                </div>
 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 text-center py-5">
+                <h3>
+                    Guesses Left: <span id="guesses-left">0</span>
+                </h3>
+            </div>
+            <div class="col-12 col-md-4 text-center py-5">
+                <h3>
+                    Wins: <span id="wins">0</span>
+                </h3>
+            </div>
+            <div class="col-12 col-md-4 text-center py-5">
+                <h3>
+                    Losses: <span id="losses">0</span>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>
